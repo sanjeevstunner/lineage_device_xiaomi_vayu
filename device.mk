@@ -34,6 +34,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
