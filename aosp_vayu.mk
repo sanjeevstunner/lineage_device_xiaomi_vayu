@@ -14,6 +14,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from vayu device
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
+# Feature Flags
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_MANUFACTURER := Xiaomi
