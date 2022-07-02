@@ -21,3 +21,8 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Add-ons
+$(call inherit-product-if-exists, vendor/xiaomi/devicesettings/config.mk)
+$(call inherit-product-if-exists, vendor/Gcam/config.mk)
+$(call inherit-product-if-exists, vendor/pixel/launcher/config.mk)
