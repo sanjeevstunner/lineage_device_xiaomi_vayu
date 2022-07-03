@@ -59,7 +59,7 @@ cd hardware/xiaomi && git pull && cd ../..
 echo ""
 else
 echo ""
-git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
+git clone https://github.com/sanjeevstunner/hardware_xiaomi.git hardware/xiaomi
 echo ""
 fi
 
