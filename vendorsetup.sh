@@ -40,14 +40,14 @@ echo ""
 fi
 
 # Kernel Tree
-if [[ -d "kernel/xiaomi/sm8150" ]]; then
+if [[ -d "kernel/xiaomi/vayu" ]]; then
 echo ""
 echo "Looking for changes in kernel tree"
-cd kernel/xiaomi/sm8150 && git pull && cd ../../..
+cd kernel/xiaomi/vayu && git pull && cd ../../..
 echo ""
 else
 echo ""
-git clone https://github.com/LineageOS/android_kernel_xiaomi_sm8150.git -b lineage-19.1 kernel/xiaomi/sm8150
+git clone https://github.com/Jebaitedneko/android_kernel_xiaomi_vayu.git -b r2 kernel/xiaomi/vayu
 echo ""
 fi
 
